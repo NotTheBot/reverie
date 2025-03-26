@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolves - My Website</title>
+
+    <!-- Google Font for fun style -->
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Shadows Into Light', cursive;
+            background-color: #f4f8f2; /* Light greenish background */
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body covers the entire height of the viewport */
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #2e8b57; /* Green background for header */
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-family: 'Rock Salt', cursive;
+            font-size: 3rem;
+        }
+
+        /* Navigation Styling */
+        nav ul {
+            list-style: none;
+            padding: 1rem 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700; /* Gold hover effect */
+        }
+
+        /* Main Section Styling */
+        #wolves {
+            text-align: center;
+            padding: 3rem 1rem;
+            flex-grow: 1; /* This will push the footer to the bottom */
+        }
+
+        #wolves h2 {
+            font-size: 2.5rem;
+            color: #2e8b57;
+            margin-bottom: 1rem;
+        }
+
+        #wolves p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .wolf-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 2rem;
+        }
+
+        .wolf-images img {
+            width: 30%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .wolf-images img:hover {
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
+        footer {
+            text-align: center;
+            background-color: #2e8b57;
+            color: white;
+            padding: 1rem;
+            margin-top: auto; /* Ensures footer sticks to the bottom */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wolves</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="good_omens_images.html">Good Omens</a></li>
+                <li><a href="wolves.html">Wolves</a></li> <!-- Link to Wolves Page -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="wolves">
+        <h2>Wolves are Majestic Creatures</h2>
+        <p>Wolves are beautiful and powerful animals that have roamed the earth for thousands of years. Known for their intelligence, strong social bonds, and loyalty to their packs, they are truly magnificent creatures of the wild.</p>
+
+        <h3>Wolf Images</h3>
+        <div class="wolf-images">
+            <img src="https://i.natgeofe.com/n/914ced12-24d0-4405-889e-4290b9f9009d/gray-wolf_thumb.JPG" alt="A beautiful wolf">
+            <img src="https://awionline.org/sites/default/files/styles/art/public/page/image/iStock-177794699.jpg?itok=QknLnjS5" alt="A wolf in the wild">
+            <img src="https://www.livingwithwolves.org/wp-content/uploads/2014/08/kyngs4_0023_1.jpg" alt="Wolf pack">
+        </div>
+
+        <p>Wolves are often seen as symbols of freedom, bravery, and the untamed spirit of nature. Whether running through forests, howling under the moon, or protecting their pack, wolves embody strength and unity.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fred. No rights reserved.</p>
+    </footer>
+
+</body>
+</html>
